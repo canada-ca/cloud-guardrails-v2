@@ -37,21 +37,21 @@ For this document the following definitions will be used:
 - Mandatory requirements: A set of baseline security controls that departments must implement, validate, and report on in the first 30 business days.
 - Additional considerations: Additional security controls that are highly recommended and should be taken into consideration. While these are not expected to be implemented within 30 business days, they include best practices that should be considered as departments progress with the establishment of their cloud-based environments.
 
-| ID. | Cloud Guardrails                                                          |
-| --- | ------------------------------------------------------------------------- |
-| 01  | [Protect Tier 0 Accounts](EN/01_Protect-Tier-0-Accounts.md)               |
-| 02  | [Manage Access](EN/02_Manage-Access.md)                                   |
-| 03  | [Secure Endpoints](EN/03_Secure-Endpoints.md)                             |
-| 04  | [Enterprise monitoring accounts](EN/04_Enterprise-Monitoring-Accounts.md) |
-| 05  | [Data location](EN/05_Data-Location.md)                                   |
-| 06  | [Protection of data-at-rest](EN/06_Protect-Data-at-Rest.md)               |
-| 07  | [Protection of data-in-transit](EN/07_Protect-Data-in-Transit.md)         |
-| 08  | [Segment and separate](EN/08_Segmentation.md)                             |
-| 09  | [Network security services](EN/09_Network-Security-Services.md)           |
-| 10  | [Cyber defense services](EN/10_Cyber-Defense-Services.md)                 |
-| 11  | [Logging and monitoring](EN/11_Logging-and-Monitoring.md)                 |
-| 12  | [Configuration of cloud marketplaces](EN/12_Cloud-Marketplace-Config.md)  |
-| 13  | [Plan for Continuity](EN/13_Plan-for-Continuity.md)                       |
+| ID. | Cloud Guardrails                                                                      |
+| --- | ------------------------------------------------------------------------------------- |
+| 01  | [Protect user accounts and identities](EN/01_Protect-user-accounts-and-identities.md) |
+| 02  | [Manage Access](EN/02_Manage-Access.md)                                               |
+| 03  | [Secure Endpoints](EN/03_Secure-Endpoints.md)                                         |
+| 04  | [Enterprise monitoring accounts](EN/04_Enterprise-Monitoring-Accounts.md)             |
+| 05  | [Data location](EN/05_Data-Location.md)                                               |
+| 06  | [Protection of data-at-rest](EN/06_Protect-Data-at-Rest.md)                           |
+| 07  | [Protection of data-in-transit](EN/07_Protect-Data-in-Transit.md)                     |
+| 08  | [Segment and separate](EN/08_Segmentation.md)                                         |
+| 09  | [Network security services](EN/09_Network-Security-Services.md)                       |
+| 10  | [Cyber defense services](EN/10_Cyber-Defense-Services.md)                             |
+| 11  | [Logging and monitoring](EN/11_Logging-and-Monitoring.md)                             |
+| 12  | [Configuration of cloud marketplaces](EN/12_Cloud-Marketplace-Config.md)              |
+| 13  | [Plan for Continuity](EN/13_Plan-for-Continuity.md)                                   |
 
 <!-- The [applicable scope for the guardrails](EN/00_Applicable-Scope.md) for the guardrails are based on cloud usage profiles. -->
 
