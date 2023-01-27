@@ -4,7 +4,7 @@
 
 ## Objective
 
-Protect user accounts and identities.
+Protect User Accounts and Identities.
 
 ## Applicable Service Models
 
@@ -37,10 +37,6 @@ Protect user accounts and identities.
 ## Additional Considerations
 
 None.
-
-## Proposed Timelines
-
-- 30 Days
 
 ## References
 

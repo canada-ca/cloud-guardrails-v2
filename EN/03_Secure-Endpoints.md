@@ -6,29 +6,29 @@
 
 Implement increased levels of protection for management interfaces.
 
-## Key Considerations
-
-- [ ] Implement access restrictions to ensure the use of trusted endpoint devices that are patched and managed, in accordance with GC Endpoint Management Configuration Requirements.
-
-**Note:** Some service providers may offer configuration options to restrict endpoint device access. Alternatively, organizational policy and procedural instruments can be implemented to restrict access.
-
-## Validation
-
-- [ ] Confirm that administrative access to cloud environments are from approved and trusted locations (e.g. departmental IP space) that leverage GC-managed devices that enforce the GC endpoint management configuration requirements.
-
-  Demonstrate access configurations and policies are implemented for devices.
-
 ## Applicable Service Models
 
 - IaaS, PaaS, SaaS
 
-## Proposed Timelines
+## Mandatory Requirements
 
-- 30 Days
+- Implement access restrictions to ensure the use of trusted endpoint devices that are patched and managed, in accordance with GC Endpoint Management Configuration Requirements.
+
+## Validation
+
+- Confirm that administrative access to cloud environments is from approved and trusted locations and GC managed devices that enforce the GC endpoint management configuration requirements.
+- Demonstrate access configurations and policies are implemented for devices.
+
+## Additional Considerations
+
+- Leverage dedicated Privileged Access Workstations to conduct all administrative activities
+- Confirm if dedicated Privileged Access Workstations are utilized to conduct all administrative activities
 
 ## References
 
-1. [SPIN 2017-01](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html), subsection 6.2.3
-2. Appendix G: Standard on Enterprise IT Service Common Configurations, Endpoint Management Configuration Requirements, subsection 1 and 2
-3. CSE Top 10 #2
-4. Related security controls: AC‑3(7), AC-3(8), AC-6(5)
+1. [SPIN 2017-01](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html), subsection 6.2.3
+2. CSE Top 10 #2
+3. Refer to the [Recommendations for Two-Factor User Authentication Within the Government of Canada Enterprise Domain](https://intranet.canada.ca/wg-tg/rtua-rafu-eng.asp)
+4. Refer to the [Directive on Service and Digital- Canada.ca](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32601), [Appendix G: Standard on Enterprise Information Technology Service Common Configurations - Canada.ca](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32713) - [Endpoint Management Configuration Requirements - Canada.ca](https://www.canada.ca/en/government/system/digital-government/policies-standards/enterprise-it-service-common-configurations/endpoint.html)
+
+Related security controls: AC3, AC-3(7), AC-4, AC5, AC6, AC6(5), AC6(10), AC19, AC20(3), IA2, IA2(1),IA2(11), IA4, IA5, IA5(1), SI-4, AU-6, AU-12

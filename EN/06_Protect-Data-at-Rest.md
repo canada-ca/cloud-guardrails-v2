@@ -6,35 +6,33 @@
 
 Protect data at rest by default (e.g. storage) for cloud-based workloads.
 
-## Key Considerations
-
-- [ ] Implement an encryption mechanism to protect the confidentiality and integrity of data when data are at rest in your solution's storage.
-- [ ] Use CSE-approved cryptographic algorithms and protocols, in accordance with [ITSP.40.111](https://cyber.gc.ca/en/guidance/cryptographic-algorithms-unclassified-protected-and-protected-b-information-itsp40111) and [ITSP.40.062](https://www.cse-cst.gc.ca/en/system/files/pdf_documents/itsp.40.062-eng.pdf).
-
-## Validation
-
-- [ ] Confirm that storage service encryption is enabled for data at rest (if required based on the security risk assessment)
-- [ ] Cryptographic algorithms and protocols configurable by the consumer are leveraged in accordance with ITSP 40.111 and 40.062.
-- [ ] Confirm that privacy is included as part of the Departmental SDLC process.
-- [ ] Confirm that a key management strategy has been adopted for the cloud tenant.
-
-## Additional Considerations
-
-- [ ] Seek guidance from privacy and access to information officials within institutions before storing personal information in cloud-based environments.
-- [ ] Leverage an appropriate key management system for the cryptographic protection used in cloud-based services, in accordance with GC [Considerations for the Use of Cryptography in Commercial Cloud Services and CCCS guidance on key management](https://cyber.gc.ca/en/guidance/guidance-cloud-service-cryptography-itsp50106).
-
 ## Applicable Service Models
 
 - IaaS, PaaS, SaaS
 
-## Proposed Timelines
+## Mandatory Requirements
 
-- 60 Days
+- Implement an encryption mechanism to protect the confidentiality and integrity of data when data are at rest in your solution's storage.
+- Use CSE-approved cryptographic algorithms and protocols, in accordance with ITSP.40.111 and ITSP.40.062.
+
+## Validation
+
+- For IaaS and PaaS, confirm that storage service encryption is enabled for data at rest (if required based on the security risk assessment).
+- For SaaS, confirm that the CSP has implemented encryption to protect customer data.
+- Cryptographic algorithms and protocols configurable by the consumer are leveraged in accordance with ITSP 40.111 and 40.062.
+- For SaaS, confirm that the CSP has implemented algorithms that align with ITSP 40.111 and 40.062.
+
+## Additional Considerations
+
+- Seek guidance from privacy and access to information officials within institutions before storing personal information in cloud-based environments.
+- Leverage an appropriate key management system for the cryptographic protection used in cloud-based services, in accordance with GC Considerations for the Use of Cryptography in Commercial Cloud Services and CCCS guidance on key management at <https://cyber.gc.ca/en/guidance/guidance-cloud-service-cryptography-itsp50106> .
+- Confirm that privacy is included as part of the Departmental SDLC process.
+- Confirm that a key management strategy has been adopted for the cloud tenant.
 
 ## References
 
-1. [SPIN 2017-01](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html), subsection 6.2.4
-2. Refer to the guidance in GC [Considerations for Cryptography in Commercial Cloud Services](https://www.canada.ca/en/government/system/digital-government/modern-emerging-technologies/cloud-services/government-canada-consideration-use-cryptography-in-cloud.html).
-3. Refer to the cryptography guidance in [ITSP.40.111](https://cyber.gc.ca/en/guidance/cryptographic-algorithms-unclassified-protected-and-protected-b-information-itsp40111) and [ITSP.40.062](https://www.cse-cst.gc.ca/en/system/files/pdf_documents/itsp.40.062-eng.pdf).
-4. CCCS Guidance on cloud service cryptography (ITSP.50.106)
-5. Related security controls: SC‑12, SC‑13, SC‑28(1)
+1. [SPIN 2017-01,](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html) subsection 6.2.4
+2. Refer to the cryptography guidance in [ITSP.40.111](https://cyber.gc.ca/en/guidance/cryptographic-algorithms-unclassified-protected-and-protected-b-information-itsp40111) and [ITSP.40.062](https://www.cse-cst.gc.ca/en/system/files/pdf_documents/itsp.40.062-eng.pdf).
+3. Refer to the guidance in [Considerations for Cryptography in Commercial Cloud Services.](https://www.canada.ca/en/government/system/digital-government/modern-emerging-technologies/cloud-services/government-canada-consideration-use-cryptography-in-cloud.html)
+
+Related security controls: IA-7,SC12, SC13, SC28, SC28(1)
