@@ -20,7 +20,6 @@ Create role-based account to enable enterprise monitoring and visibility
 ## Validation
 
 - Verify that roles required to enable GC visibility to have been provisioned/assigned.
-- Confirm if monitoring and auditing of the privileged and non-privileged accounts is implemented.
 - Confirm alert notification to the authorized personnel is implemented flagging misuse, suspicious sign-in attempts, or when changes are made to the privileged and non-privileged accounts.
 
 ## Additional Considerations

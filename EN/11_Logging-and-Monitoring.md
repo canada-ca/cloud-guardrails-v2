@@ -26,11 +26,7 @@ Enable logging for the cloud environment and for cloud-based workloads.
   2. Access privilege and group changes (including group membership and group privilege assignment)
   3. Changes in configuration of cloud platform
   4. Cloud resource provisioning activities.
-- Confirm that the cloud environment is configured to log the following:
-  1. Sign-in logs (interactive and non-interactive sign-ins, API sign-ins)
-  2. Access privilege and group changes (including group membership and group privilege assignment)
-  3. Changes in configuration of cloud platform
-  4. Cloud resource provisioning activities.
+- Confirm if monitoring and auditing is implemented for all users.
 - Confirm that the security contact record within the account should be completed with details of at least two (if multiple permitted by cloud platform) appropriate information security personnel.
 - Confirm that the appropriate time zone has been set.
 - Demonstrate that the monitoring use cases for the cloud platform have been implemented and have been integrated with the overall security monitoring activities being performed by the department. Evidence could include monitoring run book/checklist, system generated report.
@@ -44,5 +40,6 @@ None
 1. [SPIN 2017-01](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html), subsection 6.3.1
 2. CSE Top 10 #1, 5, 8
 3. Refer to [GC Event Logging Guidance](https://www.gcpedia.gc.ca/gcwiki/images/e/e3/GC_Event_Logging_Strategy.pdf)
+4. Refer to [ITSP.50.104 Guidance on defence in depth for cloud-based services](https://cyber.gc.ca/en/guidance/itsp50104-guidance-defence-depth-cloud-based-services), subsection 4.8
 
 Related security controls: AU‑12, SI-4, SI-4(7)

@@ -36,6 +36,7 @@ Ensure that there is a plan for continuity of access and service that accommodat
 ## References
 
 1. [SPIN 2017-01](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html)
-2. Refer to [GCconnex](https://gcconnex.gc.ca/file/view/53599636/gc-cloud-broker-sci-assessed-marketplace-products-byol-freeware?language=en) for current list of approved marketplace products.
+2. Refer to the [template](https://gcconnex.gc.ca/file/view/55010566/break-glass-emergency-account-procedure-departments-can-use-to-develop-their-emergency-access-management-controls-for-cloud?language=en) for a break glass emergency account management procedure.
+3. Refer to the [Department Cyber Security Event Management Plan (CSEMP) Template](https://www.gcpedia.gc.ca/gcwiki/images/6/66/Department_CSEMP_Template.docx).
 
 Related security controls: AC-1, CP-1,CP-2,CP-9,CA-3
