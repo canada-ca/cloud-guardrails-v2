@@ -20,16 +20,14 @@ The following are questions for industry:
 2. Do you anticipate any challenges for customers in implementing, validating, and reporting on compliance for the proposed guardrails?
 3. For SaaS, what is the recommended approach for validating the guardrails?
 
-## Cloud Guardrails
-
-This document focuses on a preliminary set of baseline security controls to ensure that the cloud service environment has a minimum set of configurations for the cloud environment. Departments are expected to must implement, validate, and report on in the first 30 business days.
-
-Departments are responsible for implementing the minimum configurations identified in the table below. Validation of the guardrails will be performed by SSC Cloud Services Directorate. The [Standard Operating Procedure (SOP) on Validating Cloud Guardrails](https://www.gcpedia.gc.ca/gcwiki/images/1/19/SOP_for_Validating_Cloud_Guardrails.pdf) has been developed to support this activity.
+## Definitions
 
 For this document the following definitions will be used:
 
 - Mandatory requirements: A set of baseline security controls that departments must implement, validate, and report on in the first 30 business days.
 - Additional considerations: Additional security controls that are highly recommended and should be taken into consideration. While these are not expected to be implemented within 30 business days, they include best practices that should be considered as departments progress with the establishment of their cloud-based environments.
+
+## Cloud Guardrails
 
 | ID. | Cloud Guardrails                                                                      |
 | --- | ------------------------------------------------------------------------------------- |
