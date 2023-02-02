@@ -10,13 +10,9 @@ Restrict Third-Party CSP Marketplace software to GC-approved products.
 
 - IaaS, PaaS, SaaS
 
-## Mandatory Requirements
-
-- Only GC approved cloud marketplace products are to be consumed. Turning on the commercial marketplace is prohibited.
-
-## Validation
-
-- Confirm that third-party marketplace restrictions have been implemented.
+| Mandatory Requirements                                                                                                                 | Validation                                                                                 |
+| -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| <ul><li>Only GC approved cloud marketplace products are to be consumed. Turning on the commercial marketplace is prohibited.</li></ul> | <ul><li>Confirm that third-party marketplace restrictions have been implemented.</li></ul> |
 
 ## Additional Considerations
 

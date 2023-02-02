@@ -10,18 +10,10 @@ Ensure that there is a plan for continuity of access and service that accommodat
 
 - IaaS, PaaS, SaaS
 
-## Mandatory Requirements
-
-- Document, implement, and test a break glass emergency account management process.
-- Obtain signature from Departmental Chief Information Officer (CIO) and Chief Security Officer (CSO) to confirm acknowledgement and approval of the break glass emergency account management procedures.
-
-## Validation
-
-- Verify that a break glass emergency account management procedure has been developed
-- Verify that break glass accounts are not subject to MFA, ABAC or AACS policies
-- Verify that alerting is in place to report any use of break glass accounts
-- Verify that testing of break glass account took place, and that periodic testing is included in break glass emergency account management procedure.
-- Confirm through attestation that the Departmental Chief Information Officer (CIO) and Chief Security Officer (CSO) have approved the break glass emergency account management procedure for the cloud service.
+| Mandatory Requirements                                                                                                                                                                                                      | Validation                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <ul><li>Document, implement, and test a break glass emergency account management process. </li> </ul>                                                                                                                       | <ul> <li>Verify that a break glass emergency account management procedure has been developed</li> <li>Verify that break glass accounts are not subject to MFA, ABAC or AACS policies</li> <li>Verify that alerting is in place to report any use of break glass accounts</li> <li>Verify that testing of break glass account took place, and that periodic testing is included in break glass emergency account management procedure.</li> </ul> |
+| <ul><li> Obtain signature from Departmental Chief Information Officer (CIO) and Chief Security Officer (CSO) to confirm acknowledgement and approval of the break glass emergency account management procedures.</li> </ul> | <ul><li>Confirm through attestation that the Departmental Chief Information Officer (CIO) and Chief Security Officer (CSO) have approved the break glass emergency account management procedure for the cloud service. </li> </ul>                                                                                                                                                                                                               |
 
 ## Additional Considerations
 
@@ -39,4 +31,4 @@ Ensure that there is a plan for continuity of access and service that accommodat
 2. Refer to the [template](https://gcconnex.gc.ca/file/view/55010566/break-glass-emergency-account-procedure-departments-can-use-to-develop-their-emergency-access-management-controls-for-cloud?language=en) for a break glass emergency account management procedure.
 3. Refer to the [Department Cyber Security Event Management Plan (CSEMP) Template](https://www.gcpedia.gc.ca/gcwiki/images/6/66/Department_CSEMP_Template.docx).
 
-Related security controls: AC-1, CP-1,CP-2,CP-9,CA-3
+Related security controls AC-1, CP-1,CP-2,CP-9,CA-3

@@ -10,14 +10,9 @@ Establish policies to restrict GC sensitive workloads to approved geographic loc
 
 - IaaS, PaaS, SaaS
 
-## Mandatory Requirements
-
-- As per Section 4.4.3.14 of the Directive on Service and Digital, “Ensuring computing facilities located within the geographic boundaries of Canada or within the premises of a Government of Canada department located abroad, such as a diplomatic or consular mission, be identified and evaluated as a principal delivery option for all sensitive electronic information and data under government control that has been categorized as Protected B, Protected C or is Classified.”
-
-## Validation
-
-- Demonstrate that service location is within Canada (For all PB cloud-services), in accordance with the applicable cloud usage profiles.
-- Identify services provisioned outside Canada.
+| Mandatory Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Validation                                                                                                                                                                                                      |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li>As per Section 4.4.3.14 of the Directive on Service and Digital, “Ensuring computing facilities located within the geographic boundaries of Canada or within the premises of a Government of Canada department located abroad, such as a diplomatic or consular mission, be identified and evaluated as a principal delivery option for all sensitive electronic information and data under government control that has been categorized as Protected B, Protected C or is Classified.”</li></ul> | <ul><li>Demonstrate that service location is within Canada (For all PB cloud-services), in accordance with the applicable cloud usage profiles.</li><li>Identify services provisioned outside Canada.</li></ul> |
 
 ## Additional Considerations
 

@@ -10,19 +10,12 @@ Establish external and internal network perimeters and monitor network traffic.
 
 - IaaS, PaaS, SaaS
 
-## Mandatory Requirements
-
-- Ensure that egress/ingress points to and from GC cloud-based environments are managed and monitored.
-- Implement network boundary protection mechanisms for all external facing interfaces that enforce a deny-all or allow-by-exception policy.
-- Perimeter security services such as boundary protection, intrusion prevention services, proxy services, TLS traffic inspection, etc. must be enabled based on risk profile, in alignment with GC Secure Connectivity Requirements and ITSP.80.022 and ITSG-38.
-- Ensure that access to cloud storage services is protected and restricted to authorized security zones/network, users, and services.
-
-## Validation
-
-- Confirm policy for limiting number of public IPs.
-- Confirm policy for network boundary protection.
-- Confirm policy for limiting to authorized source IP addresses (e.g., GC IP addresses).
-- Confirm that storage accounts are not exposed to the public.
+| Mandatory Requirements                                                                                                                                                                                                                                                           | Validation                                                                                               |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| <ul><li>Ensure that egress/ingress points to and from GC cloud-based environments are managed and monitored.</li></ul>                                                                                                                                                           | <ul><li>Confirm policy for limiting number of public IPs.</li></ul>                                      |
+| <ul><li>Implement network boundary protection mechanisms for all external facing interfaces that enforce a deny-all or allow-by-exception policy.</li></ul>                                                                                                                      | <ul><li>Confirm policy for network boundary protection.</li></ul>                                        |
+| <ul><li>Perimeter security services such as boundary protection, intrusion prevention services, proxy services, TLS traffic inspection, etc. must be enabled based on risk profile, in alignment with GC Secure Connectivity Requirements and ITSP.80.022 and ITSG-38.</li></ul> | <ul><li>Confirm policy for limiting to authorized source IP addresses (e.g., GC IP addresses).</li></ul> |
+| <ul><li>Ensure that access to cloud storage services is protected and restricted to authorized security zones/network, users, and services.</li></ul>                                                                                                                            | <ul><li>Confirm that storage accounts are not exposed to the public.</li></ul>                           |
 
 ## Additional Considerations
 

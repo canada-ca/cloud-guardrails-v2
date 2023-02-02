@@ -10,18 +10,11 @@ Protect data transiting networks through the use of appropriate encryption and n
 
 - IaaS, PaaS, SaaS
 
-## Mandatory Requirements
-
-- Encrypt data in transit by default (e.g., TLS v1.2, etc.) to protect the confidentiality and integrity of data, including for all publicly accessible sites and external communications as per the GC Website and Services Configuration Requirements, and wherever possible for internal zone communication.
-- Use CSE-approved cryptographic algorithms and protocols, in accordance with ITSP.40.111 and ITSP.40.062.
-- Leverage non-person entity certificates from certificate authorities that align with the Recommendations for TLS Server Certificates.
-
-## Validation
-
-- Confirm that TLS v1.2 or above encryption is implemented for all cloud services (via HTTPS, TLS or other mechanism).
-  (Note: While this is often the default, cloud platforms and cloud services often have configuration options to select the permitted TLS version.)
-- Cryptographic algorithms and protocols configurable by the consumer are leveraged in accordance with ITSP 40.111 and 40.062.
-- Confirm that NPE certificates are issued from certificate authorities that align with GC recommendations for TLS server certificates.
+| Mandatory Requirements                                                                                                                                                                                                                                                                                                          | Validation                                                                                                                                                                                                                                                                                     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li>Encrypt data in transit by default (e.g., TLS v1.2, etc.) to protect the confidentiality and integrity of data, including for all publicly accessible sites and external communications as per the GC Website and Services Configuration Requirements, and wherever possible for internal zone communication.</li></ul> | <ul><li>Confirm that TLS v1.2 or above encryption is implemented for all cloud services (via HTTPS, TLS or other mechanism).<p>(Note: While this is often the default, cloud platforms and cloud services often have configuration options to select the permitted TLS version.)</p></li></ul> |
+| <ul><li>Use CSE-approved cryptographic algorithms and protocols, in accordance with ITSP.40.111 and ITSP.40.062.</li></ul>                                                                                                                                                                                                      | <ul><li>Cryptographic algorithms and protocols configurable by the consumer are leveraged in accordance with ITSP 40.111 and 40.062.</li></ul>                                                                                                                                                 |
+| <ul><li>Leverage non-person entity certificates from certificate authorities that align with the Recommendations for TLS Server Certificates.</li></ul>                                                                                                                                                                         | <ul><li>Confirm that NPE certificates are issued from certificate authorities that align with GC recommendations for TLS server certificates.</li></ul>                                                                                                                                        |
 
 ## Additional Considerations
 

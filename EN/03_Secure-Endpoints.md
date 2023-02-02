@@ -10,14 +10,9 @@ Implement increased levels of protection for management interfaces.
 
 - IaaS, PaaS, SaaS
 
-## Mandatory Requirements
-
-- Implement access restrictions to ensure the use of trusted endpoint devices that are patched and managed, in accordance with GC Endpoint Management Configuration Requirements.
-
-## Validation
-
-- Confirm that administrative access to cloud environments is from approved and trusted locations and GC managed devices that enforce the GC endpoint management configuration requirements.
-- Demonstrate access configurations and policies are implemented for devices.
+| Mandatory Requirements                                                                                                                                                                            | Validation                                                                                                                                                                                                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <ul><li>Implement access restrictions to ensure the use of trusted endpoint devices that are patched and managed, in accordance with GC Endpoint Management Configuration Requirements.</li></ul> | <ul><li>Confirm that administrative access to cloud environments is from approved and trusted locations and GC managed devices that enforce the GC endpoint management configuration requirements.</li><li>Demonstrate access configurations and policies are implemented for devices.</li></ul> |
 
 ## Additional Considerations
 

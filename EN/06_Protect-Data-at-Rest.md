@@ -10,17 +10,10 @@ Protect data at rest by default (e.g. storage) for cloud-based workloads.
 
 - IaaS, PaaS, SaaS
 
-## Mandatory Requirements
-
-- Implement an encryption mechanism to protect the confidentiality and integrity of data when data are at rest in your solution's storage.
-- Use CSE-approved cryptographic algorithms and protocols, in accordance with ITSP.40.111 and ITSP.40.062.
-
-## Validation
-
-- For IaaS and PaaS, confirm that storage service encryption is enabled for data at rest (if required based on the security risk assessment).
-- For SaaS, confirm that the CSP has implemented encryption to protect customer data.
-- Cryptographic algorithms and protocols configurable by the consumer are leveraged in accordance with ITSP 40.111 and 40.062.
-- For SaaS, confirm that the CSP has implemented algorithms that align with ITSP 40.111 and 40.062.
+| Mandatory Requirements                                                                                                                                     | Validation                                                                                                                                                                                                                                                |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li>Implement an encryption mechanism to protect the confidentiality and integrity of data when data are at rest in your solution's storage.</li></ul> | <ul><li>For IaaS and PaaS, confirm that storage service encryption is enabled for data at rest (if required based on the security risk assessment).</li><li>For SaaS, confirm that the CSP has implemented encryption to protect customer data.</li></ul> |
+| <ul><li>Use CSE-approved cryptographic algorithms and protocols, in accordance with ITSP.40.111 and ITSP.40.062.</li></ul>                                 | <ul><li>Cryptographic algorithms and protocols configurable by the consumer are leveraged in accordance with ITSP 40.111 and 40.062.</li><li>For SaaS, confirm that the CSP has implemented algorithms that align with ITSP 40.111 and 40.062.</li></ul>  |
 
 ## Additional Considerations
 

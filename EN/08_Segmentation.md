@@ -10,15 +10,9 @@ Segment and separate information based on sensitivity of information.
 
 - IaaS, PaaS
 
-## Mandatory Requirements
-
-- Isolate and secure cloud workloads based on the sensitivity of the data.
-
-## Validation
-
-- Confirm that department has a target network architecture high level design and / or diagram with appropriate segmentation between network security zones in alignment with CSE’s ITSG-22 and ITSG-38.
-- Confirm that the department has documented a deployment guide of the cloud platform and associated services. (The document is to capture landing zone if applicable)
-- Confirm that CSP segmentation features are leveraged to provide segmentation of Management, Prod, UAT, DEV, and test. (For example, use of subscription, instances, or other cloud provider construct).
+| Mandatory Requirements                                                                     | Validation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li>Isolate and secure cloud workloads based on the sensitivity of the data.</li></ul> | <ul><li>Confirm that department has a target network architecture high level design and / or diagram with appropriate segmentation between network security zones in alignment with CSE’s ITSG-22 and ITSG-38.</li><li>Confirm that the department has documented a deployment guide of the cloud platform and associated services. (The document is to capture landing zone if applicable)</li><li>Confirm that CSP segmentation features are leveraged to provide segmentation of Management, Prod, UAT, DEV, and test. (For example, use of subscription, instances, or other cloud provider construct).</li></ul> |
 
 ## Additional Considerations
 
