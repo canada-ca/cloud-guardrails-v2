@@ -1,27 +1,27 @@
-# Enterprise Monitoring Accounts
+# Comptes de surveillance de l’organisation
 
 ([Back](../README.md))
 
-## Objective
+## Objectif
 
-Create role-based account to enable enterprise monitoring and visibility
+Créer un compte axé sur les rôles établis pour permettre la surveillance et la visibilité de l’organisation.
 
-## Applicable Service Models
+## Modèles de services applicables
 
 - IaaS, PaaS, SaaS
 
-| Mandatory Requirements                                                                                                                                                                                                                                                                                          | Validation                                                                                                                                                                                                    |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <ul><li>Enable enterprise visibility by establishing monitoring roles for GC approved stakeholders with read-only access following the least privilege principle to support validation of:<ul><li>billing information</li><li>security configuration as part of cloud guardrails monitoring</li></ul></li></ul> | <ul><li>Verify that roles required to enable GC visibility to have been provisioned/assigned.</li></ul>                                                                                                       |
-| <ul><li>Review access privileges periodically and remove access when it is no longer required.</li></ul>                                                                                                                                                                                                        | <ul><li>Confirm alert notification to the authorized personnel is implemented flagging misuse, suspicious sign-in attempts, or when changes are made to the privileged and non-privileged accounts.</li></ul> |
+| Exigences obligatoires                                                                                                                                                                                                                                                                                                                                                                                | Validation                                                                                                                                                                                                                              |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li>Permettre la visibilité de l’organisation en établissant des rôles de surveillance pour les intervenants approuvés par le GC avec un accès en lecture seule selon le principe du privilège le moins élevé pour soutenir la validation de :<ul><li>l’information de facturation;</li><li>la configuration de la sécurité dans le cadre des mesures de protection en nuage.</li></ul></li></ul> | <ul><li>Vérifier que les rôles requis pour permettre la visibilité du GC ont été attribués. </li></ul>                                                                                                                                  |
+| <ul><li>Examiner périodiquement les privilèges d’accès et supprimer l’accès lorsqu’il n’est plus nécessaire.</li></ul>                                                                                                                                                                                                                                                                                | <ul><li>Confirmer la mise en place d’une notification d’alerte au personnel autorisé pour signaler les abus, les tentatives de connexion suspectes ou les modifications apportées aux comptes privilégiés et non privilégiés.</li></ul> |
 
-## Additional Considerations
+| Autres considérations |
+| --------------------- |
+| Aucune                |
 
-None
+## Références
 
-## References
+1. [AMOPS 2017-01](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html), sous-section 6.2.3.
+2. Dix grandes mesures de sécurité no 2 du CST.
 
-1. [SPIN 2017-01](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html), subsection 6.2.3
-2. CSE Top 10 #2
-
-Related security controls: AC-3(7), AC-6(5), IA-2(1)
+Mesures de sécurité connexes : AC-3(7), AC-6(5), IA-2(1)

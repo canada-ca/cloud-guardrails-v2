@@ -1,26 +1,26 @@
-# Cyber Defense Services
+# Services de cyberdéfense
 
 ([Back](../README.md))
 
-## Objective
+## Objectif
 
-Establish MOU for defensive services and threat monitoring protection services.
+Établir un protocole d’entente pour les services de défense et les services de protection de surveillance des menaces.
 
-## Applicable Service Models
+## Modèles de services applicables
 
 - IaaS, PaaS, SaaS
 
-| Mandatory Requirements                                                                                                                  | Validation                                                                                                          |
-| --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| <ul><li>Sign an MOU with Canadian Centre for Cyber Security (CCCS). (CDOServiceDeployments@cyber.gc.ca.)</ul></li>                      | <ul><li>Confirmation from CCCS that the MOU has been signed by the Department.</ul></li>                            |
-| <ul><li>Implement defensive services including HBS, CBS, and NBS in accordance with CCCS onboarding guidance where available.</ul></li> | <ul><li>Confirm that the sensors or other cyber defense services by CCCS are implemented where available.</ul></li> |
+| Exigences obligatoires                                                                                                                               | Validation                                                                                                                            |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li>Signer un protocole d’entente avec le Centre canadien pour la cybersécurité (CCC). (CDOServiceDeployments@cyber.gc.ca.)</ul></li>            | <ul><li>Confirmation par le CCC que le protocole d’entente a été signé par le ministère.</ul></li>                                    |
+| <ul><li>Mettre en œuvre les services de défense, y compris HBS, CBS et NBS, conformément aux directives d’adhésion du CCC, le cas échéant.</ul></li> | <ul><li>Confirmer que les capteurs ou autres services de cyberdéfense du CCC sont mis en œuvre lorsqu’ils sont disponibles.</ul></li> |
 
-## Additional Considerations
+| Autres considérations |
+| --------------------- |
+| Aucune                |
 
-None
+## Références
 
-## References
+1. [AMOPS 2017-01](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html), sous-section 6.3.
 
-1. [SPIN 2017-01](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html), subsection 6.3
-
-Related security controls: SI‑4
+Mesures de sécurité connexes : SI‑4

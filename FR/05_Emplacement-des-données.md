@@ -1,26 +1,26 @@
-# Data Location
+# Emplacement des données
 
 ([Back](../README.md))
 
-## Objective
+## Objectif
 
-Establish policies to restrict GC sensitive workloads to approved geographic locations
+Établir des politiques pour restreindre la charge de travail de nature délicate au GC à des emplacements géographiques approuvés.
 
-## Applicable Service Models
+## Modèles de services applicables
 
 - IaaS, PaaS, SaaS
 
-| Mandatory Requirements                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Validation                                                                                                                                                                                                      |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <ul><li>As per Section 4.4.3.14 of the Directive on Service and Digital, “Ensuring computing facilities located within the geographic boundaries of Canada or within the premises of a Government of Canada department located abroad, such as a diplomatic or consular mission, be identified and evaluated as a principal delivery option for all sensitive electronic information and data under government control that has been categorized as Protected B, Protected C or is Classified.”</li></ul> | <ul><li>Demonstrate that service location is within Canada (For all PB cloud-services), in accordance with the applicable cloud usage profiles.</li><li>Identify services provisioned outside Canada.</li></ul> |
+| Exigences obligatoires                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Validation                                                                                                                                                                                                                                       |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <ul><li>Conformément à la section 4.4.3.14 de la Directive sur les services et le numérique, « Veiller à ce que les installations informatiques situées à l’intérieur des frontières géographiques du Canada ou dans des locaux à l’étranger appartenant à un ministère du gouvernement du Canada, comme une mission diplomatique ou consulaire, soient considérées et évaluées en tant qu’option principale pour la prestation de services visant tous les renseignements et toutes les données électroniques de nature délicate sous le contrôle du gouvernement classifiés Protégé B, C ou Classifié. ».</li></ul> | <ul><li>Démontrer que l’emplacement du service se trouve au Canada (pour tous les services en nuage PB), conformément aux profils d’utilisation en nuage applicables.</li><li>Identifier les services fournis à l’extérieur du Canada.</li></ul> |
 
-## Additional Considerations
+| Autres considérations |
+| --------------------- |
+| Aucune                |
 
-None
+## Références
 
-## References
+1. [AMOPS 2017-01](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html), sous-section 6.2.3.
+2. Consulter la [Directive sur les services et le numérique](https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=32601) sous-section 4.4.3.14.
 
-1. [SPIN 2017-01](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html), subsection 6.2.3
-2. Refer to [Directive on Service and Digital](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32601), subsection 4.4.3.14
-
-Related security controls: SA-9(5)
+Mesures de sécurité connexes : SA-9(5)

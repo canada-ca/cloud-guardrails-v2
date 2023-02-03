@@ -1,30 +1,29 @@
-# Secure Endpoints
+# Sécuriser les points d’extrémité
 
 ([Back](../README.md))
 
-## Objective
+## Objectif
 
-Implement increased levels of protection for management interfaces.
+Mettre en œuvre des niveaux de protection accrus pour les interfaces de gestion.
 
-## Applicable Service Models
+## Modèles de services applicables
 
 - IaaS, PaaS, SaaS
 
-| Mandatory Requirements                                                                                                                                                                            | Validation                                                                                                                                                                                                                                                                                       |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <ul><li>Implement access restrictions to ensure the use of trusted endpoint devices that are patched and managed, in accordance with GC Endpoint Management Configuration Requirements.</li></ul> | <ul><li>Confirm that administrative access to cloud environments is from approved and trusted locations and GC managed devices that enforce the GC endpoint management configuration requirements.</li><li>Demonstrate access configurations and policies are implemented for devices.</li></ul> |
+| Exigences obligatoires                                                                                                                                                                                                                                    | Validation                                                                                                                                                                                                                                                                                                                                                                           |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <ul><li>Mettre en place des restrictions d’accès pour garantir l’utilisation de dispositifs d’extrémité dignes de confiance qui sont corrigés et gérés, conformément aux exigences de configuration de la gestion des points d’extrémité du GC.</li></ul> | <ul><li>Confirmer que l’accès administratif aux environnements en nuage se fait à partir d’emplacements approuvés et de confiance et de dispositifs gérés par le GC qui appliquent les exigences de configuration de la gestion des points d’extrémité du GC.</li><li>Démontrer que les configurations et les politiques d’accès sont mises en œuvre pour les dispositifs.</li></ul> |
 
-## Additional Considerations
+| Autres considérations                                                                                                             |                                                                                                                                                    |
+| --------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li>Exploiter des postes de travail à accès privilégié spécialisés pour mener toutes les activités administratives.</li></ul> | <ul><li>Confirmer si des postes de travail spécialisés à accès privilégié sont utilisés pour mener toutes les activités administratives.</li></ul> |
 
-- Leverage dedicated Privileged Access Workstations to conduct all administrative activities
-- Confirm if dedicated Privileged Access Workstations are utilized to conduct all administrative activities
+## Références
 
-## References
+1. [AMOPS 2017-01](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html), sous-section 6.2.3.
+2. Dix grandes mesures de sécurité no 3 du CST.
+3. Consulter les [Recommandations pour l’authentification à deux facteurs des utilisateurs dans le domaine organisationnel du gouvernement du Canada](https://intranet.canada.ca/wg-tg/rtua-rafu-eng.asp).
+4. Consulter la [Directive sur les services et le numérique](https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=32601), [l’annexe G : Norme sur les configurations courantes des services de la TI intégrée](https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=32713) et les [Exigences de configuration relatives à la gestion des comptes](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/politiques-normes/configurations-courantes-services-ti-integree/comptes.html).
+5. Se reporter à [ITSP.50.104 Guide sur la défense en profondeur pour les services fondés sur l’informatique en nuage](https://cyber.gc.ca/fr/orientation/guide-sur-la-defense-en-profondeur-pour-les-services-fondes-sur-linfonuagique-itsp50104), sous-section 4.6.
 
-1. [SPIN 2017-01](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html), subsection 6.2.3
-2. CSE Top 10 #2
-3. Refer to the [Recommendations for Two-Factor User Authentication Within the Government of Canada Enterprise Domain](https://intranet.canada.ca/wg-tg/rtua-rafu-eng.asp)
-4. Refer to the [Directive on Service and Digital](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32601), [Appendix G: Standard on Enterprise Information Technology Service Common Configurations](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32713) - [Endpoint Management Configuration Requirements](https://www.canada.ca/en/government/system/digital-government/policies-standards/enterprise-it-service-common-configurations/endpoint.html)
-5. Refer to [ITSP.50.104 Guidance on defence in depth for cloud-based services](https://cyber.gc.ca/en/guidance/itsp50104-guidance-defence-depth-cloud-based-services), subsection 4.9
-
-Related security controls: AC3, AC-3(7), AC-4, AC5, AC6, AC6(5), AC6(10), AC19, AC20(3), IA2, IA2(1),IA2(11), IA4, IA5, IA5(1), SI-4, AU-6, AU-12
+Mesures de sécurité connexes : AC3, AC-3(7), AC-4, AC5, AC6, AC6(5), AC6(10), AC19, AC20(3), IA2, IA2(1),IA2(11), IA4, IA5, IA5(1), SI-4, AU-6, AU-12

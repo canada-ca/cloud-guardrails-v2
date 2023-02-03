@@ -1,29 +1,28 @@
-# Segment and Separate
+# Segmenter et séparer
 
 ([Back](../README.md))
 
-## Objective
+## Objectif
 
-Segment and separate information based on sensitivity of information.
+Segmenter et séparer l’information en fonction de la sensibilité de l’information.
 
-## Applicable Service Models
+## Modèles de services applicables
 
 - IaaS, PaaS
 
-| Mandatory Requirements                                                                     | Validation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <ul><li>Isolate and secure cloud workloads based on the sensitivity of the data.</li></ul> | <ul><li>Confirm that department has a target network architecture high level design and / or diagram with appropriate segmentation between network security zones in alignment with CSE’s ITSG-22 and ITSG-38.</li><li>Confirm that the department has documented a deployment guide of the cloud platform and associated services. (The document is to capture landing zone if applicable)</li><li>Confirm that CSP segmentation features are leveraged to provide segmentation of Management, Prod, UAT, DEV, and test. (For example, use of subscription, instances, or other cloud provider construct).</li></ul> |
+| Exigences obligatoires                                                                                           | Validation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| ---------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li>Isoler et sécuriser les charges de travail en nuage en fonction de la sensibilité des données.</li></ul> | <ul><li>Confirmer que le ministère dispose d’une conception et/ou d’un diagramme de haut niveau de l’architecture du réseau cible avec une segmentation appropriée entre les zones de sécurité du réseau conformément aux guides ITSG-22 et ITSG-38 du CST.</li><li>Confirmer que le ministère a documenté un guide de déploiement de la plateforme en nuage et des services associés. (Le document doit saisir la zone d’arrivée, le cas échéant).</li><li>Confirmer que les fonctions de segmentation du FSI sont exploitées pour fournir une segmentation de la gestion, de la production, de l’EAU, du développement et des essais. (P. ex., l’utilisation d’un abonnement, d’instances ou d’un autre concept de fournisseur de nuage).</li></ul> |
 
-## Additional Considerations
+| Autres considérations                                                                                                                                                                               |                                                                                                                                                                                                                   |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li>Développer une conception de la sécurité du réseau cible qui prend en compte la segmentation au moyen des zones de sécurité du réseau conformément aux guides ITSG-22 et ITSG-38.</li></ul> | <ul><li>Tirer parti des zones d’arrivée qui comprennent une prise en charge prédéfinie, sécurisée et multicompte pour permettre l’intégration automatisée de différentes charges de travail et équipes.</li></ul> |
 
-- Develop a target network security design that considers segmentation via network security zones, in alignment with ITSG-22 and ITSG-38.
-- Leverage landing zones that include pre-defined, secured, multi-account support to allow different workloads and teams to be onboarded in an automated manner.
+## Références
 
-## References
+1. [AMOPS 2017-01](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html), sous-section 6.2.4.
+2. Dix grandes mesures de sécurité no 5.
+3. Consulter les guides sur les zones de sécurité de réseau [ITSG-22](https://cyber.gc.ca/fr/orientation/exigences-de-base-en-matiere-de-securite-pour-les-zones-de-securite-de-reseau-version) et [ITSG-38](https://cyber.gc.ca/fr/orientation/considerations-de-conception-relatives-au-positionnement-des-services-dans-les-zones).
+4. Se reporter à [ITSP.50.104 Guide sur la défense en profondeur pour les services fondés sur l’informatique en nuage](https://cyber.gc.ca/fr/orientation/guide-sur-la-defense-en-profondeur-pour-les-services-fondes-sur-linfonuagique-itsp50104), sous-sections 4.3 et 4.5.
 
-1. [SPIN 2017-01](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/security-identity-management/direction-secure-use-commercial-cloud-services-spin.html), subsection 6.2.4
-2. CSE Top 10 #5
-3. Refer to the network security zoning guidance in [ITSG-22](https://cyber.gc.ca/en/guidance/baseline-security-requirements-network-security-zones-government-canada-itsg-22) and [ITSG-38](https://cyber.gc.ca/en/guidance/network-security-zoning-design-considerations-placement-services-within-zones-itsg-38).
-4. Refer to [ITSP.50.104 Guidance on defence in depth for cloud-based services](https://cyber.gc.ca/en/guidance/itsp50104-guidance-defence-depth-cloud-based-services), subsections 4.3, 4.5
-
-Related security controls: AC‑4, SC‑7
+Mesures de sécurité connexes : AC‑4, SC‑7
