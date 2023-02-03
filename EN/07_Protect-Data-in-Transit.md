@@ -16,9 +16,9 @@ Protect data transiting networks through the use of appropriate encryption and n
 | <ul><li>Use CSE-approved cryptographic algorithms and protocols, in accordance with ITSP.40.111 and ITSP.40.062.</li></ul>                                                                                                                                                                                                      | <ul><li>Cryptographic algorithms and protocols configurable by the consumer are leveraged in accordance with ITSP 40.111 and 40.062.</li></ul>                                                                                                                                                 |
 | <ul><li>Leverage non-person entity certificates from certificate authorities that align with the Recommendations for TLS Server Certificates.</li></ul>                                                                                                                                                                         | <ul><li>Confirm that NPE certificates are issued from certificate authorities that align with GC recommendations for TLS server certificates.</li></ul>                                                                                                                                        |
 
-## Additional Considerations
-
-None
+| Additional Considerations |
+| ------------------------- |
+| None                      |
 
 ## References
 

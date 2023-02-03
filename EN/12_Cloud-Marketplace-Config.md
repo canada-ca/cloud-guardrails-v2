@@ -14,10 +14,10 @@ Restrict Third-Party CSP Marketplace software to GC-approved products.
 | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | <ul><li>Only GC approved cloud marketplace products are to be consumed. Turning on the commercial marketplace is prohibited.</li></ul> | <ul><li>Confirm that third-party marketplace restrictions have been implemented.</li></ul> |
 
-## Additional Considerations
-
-- Submit requests to add third-party products to marketplace to SSC Cloud Broker.
-- Ensure that software offered through the CSPs or CSP marketplace undergo a software assurance process to ensure that only approved products are consumed.
+| Additional Considerations                                                                                                                                                   |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li>Submit requests to add third-party products to marketplace to SSC Cloud Broker.</li></ul>                                                                           |
+| <ul><li>Ensure that software offered through the CSPs or CSP marketplace undergo a software assurance process to ensure that only approved products are consumed.</li></ul> |
 
 ## References
 

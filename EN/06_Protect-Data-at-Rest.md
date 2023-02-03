@@ -15,12 +15,10 @@ Protect data at rest by default (e.g. storage) for cloud-based workloads.
 | <ul><li>Implement an encryption mechanism to protect the confidentiality and integrity of data when data are at rest in your solution's storage.</li></ul> | <ul><li>For IaaS and PaaS, confirm that storage service encryption is enabled for data at rest (if required based on the security risk assessment).</li><li>For SaaS, confirm that the CSP has implemented encryption to protect customer data.</li></ul> |
 | <ul><li>Use CSE-approved cryptographic algorithms and protocols, in accordance with ITSP.40.111 and ITSP.40.062.</li></ul>                                 | <ul><li>Cryptographic algorithms and protocols configurable by the consumer are leveraged in accordance with ITSP 40.111 and 40.062.</li><li>For SaaS, confirm that the CSP has implemented algorithms that align with ITSP 40.111 and 40.062.</li></ul>  |
 
-## Additional Considerations
-
-- Seek guidance from privacy and access to information officials within institutions before storing personal information in cloud-based environments.
-- Leverage an appropriate key management system for the cryptographic protection used in cloud-based services, in accordance with GC Considerations for the Use of Cryptography in Commercial Cloud Services and CCCS guidance on key management at <https://cyber.gc.ca/en/guidance/guidance-cloud-service-cryptography-itsp50106> .
-- Confirm that privacy is included as part of the Departmental SDLC process.
-- Confirm that a key management strategy has been adopted for the cloud tenant.
+| Additional Considerations                                                                                                                                                                                                                                                                                                                            |                                                                                                 |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| <ul><li>Seek guidance from privacy and access to information officials within institutions before storing personal information in cloud-based environments.</li></ul>                                                                                                                                                                                | <ul><li>Confirm that privacy is included as part of the Departmental SDLC process.</li></ul>    |
+| <ul><li>Leverage an appropriate key management system for the cryptographic protection used in cloud-based services, in accordance with GC Considerations for the Use of Cryptography in Commercial Cloud Services and CCCS guidance on key management at <https://cyber.gc.ca/en/guidance/guidance-cloud-service-cryptography-itsp50106>.</li></ul> | <ul><li>Confirm that a key management strategy has been adopted for the cloud tenant.</li></ul> |
 
 ## References
 

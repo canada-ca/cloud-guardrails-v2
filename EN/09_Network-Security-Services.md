@@ -17,10 +17,9 @@ Establish external and internal network perimeters and monitor network traffic.
 | <ul><li>Perimeter security services such as boundary protection, intrusion prevention services, proxy services, TLS traffic inspection, etc. must be enabled based on risk profile, in alignment with GC Secure Connectivity Requirements and ITSP.80.022 and ITSG-38.</li></ul> | <ul><li>Confirm policy for limiting to authorized source IP addresses (e.g., GC IP addresses).</li></ul> |
 | <ul><li>Ensure that access to cloud storage services is protected and restricted to authorized security zones/network, users, and services.</li></ul>                                                                                                                            | <ul><li>Confirm that storage accounts are not exposed to the public.</li></ul>                           |
 
-## Additional Considerations
-
-- Use centrally provisioned network security services where available.
-- Confirm if the department is intending to establish dedicated and secure connections to on-premise resources.
+| Additional Considerations                                                              |                                                                                                                                 |
+| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li>Use centrally provisioned network security services where available.</li></ul> | <ul><li>Confirm if the department is intending to establish dedicated and secure connections to on-premise resources.</li></ul> |
 
 ## References
 
