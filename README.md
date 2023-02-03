@@ -86,9 +86,9 @@ Les définitions suivantes sont utilisées pour ce document :
 - Exigences obligatoires : Un ensemble de mesures de sécurité de base que les ministères doivent mettre en œuvre, valider et faire rapport dans les 30 premiers jours ouvrables.
 - Autres considérations : Autres mesures de sécurité qui sont fortement recommandées et doivent être prises en considération. Bien que l’on ne s’attende pas à ce qu’elles soient mises en œuvre dans les 30 jours ouvrables, elles comprennent les pratiques exemplaires qui devraient être prises en compte à mesure que les ministères progressent dans la mise en place de leur environnement en nuage.
 
-## Cloud Guardrails
+## Mesures de protection du nuage
 
-| ID. | Cloud Guardrails                                                                                                      |
+| ID. | Mesures de protection du nuage                                                                                        |
 | --- | --------------------------------------------------------------------------------------------------------------------- |
 | 01  | [Protéger les comptes d’utilisateurs et les identités](FR/01_Protéger-les-comptes-d’utilisateurs-et-les-identités.md) |
 | 02  | [Gérer l’accès](FR/02_Gérer-l’accès.md)                                                                               |
