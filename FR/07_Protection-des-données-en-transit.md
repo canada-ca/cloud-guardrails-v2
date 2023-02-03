@@ -1,6 +1,6 @@
 # Protection des données en transit
 
-([Back](../README.md))
+([Retour](../README.md))
 
 ## Objectif
 

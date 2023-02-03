@@ -1,6 +1,6 @@
 # Configuration des marchés de l’informatique en nuage
 
-([Back](../README.md))
+([Retour](../README.md))
 
 ## Objectif
 

@@ -1,6 +1,6 @@
 # Emplacement des données
 
-([Back](../README.md))
+([Retour](../README.md))
 
 ## Objectif
 

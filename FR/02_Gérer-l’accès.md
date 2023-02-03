@@ -1,6 +1,6 @@
 # Gérer l’accès
 
-([Back](../README.md))
+([Retour](../README.md))
 
 ## Objectif
 

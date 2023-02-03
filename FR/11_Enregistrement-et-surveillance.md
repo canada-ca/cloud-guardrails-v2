@@ -1,6 +1,6 @@
 # Enregistrement et surveillance
 
-([Back](../README.md))
+([Retour](../README.md))
 
 ## Objectif
 

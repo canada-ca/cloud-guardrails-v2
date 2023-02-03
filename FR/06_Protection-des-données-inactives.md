@@ -1,6 +1,6 @@
 # Protection des données inactives
 
-([Back](../README.md))
+([Retour](../README.md))
 
 ## Objectif
 

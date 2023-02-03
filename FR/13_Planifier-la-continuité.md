@@ -1,6 +1,6 @@
 # Planifier la continuité
 
-([Back](../README.md))
+([Retour](../README.md))
 
 ## Objectif
 

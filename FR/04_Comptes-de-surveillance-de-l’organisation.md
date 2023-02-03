@@ -1,6 +1,6 @@
 # Comptes de surveillance de l’organisation
 
-([Back](../README.md))
+([Retour](../README.md))
 
 ## Objectif
 

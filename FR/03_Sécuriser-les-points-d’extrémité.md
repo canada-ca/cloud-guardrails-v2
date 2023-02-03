@@ -1,6 +1,6 @@
 # Sécuriser les points d’extrémité
 
-([Back](../README.md))
+([Retour](../README.md))
 
 ## Objectif
 

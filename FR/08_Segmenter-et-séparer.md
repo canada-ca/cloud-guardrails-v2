@@ -1,6 +1,6 @@
 # Segmenter et séparer
 
-([Back](../README.md))
+([Retour](../README.md))
 
 ## Objectif
 
