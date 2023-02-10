@@ -59,32 +59,32 @@ The Canada wordmark and related graphics associated with this distribution are p
 
 <!-- markdownlint-disable MD024 MD025 -->
 
-# Mesures de protection du nuage du gouvernement du Canada - BETA
+# Mesures de protection du nuage du GC – Version bêta
 
-<!-- ## Introduction
+## Introduction
 
-In August 2019, the Government of Canada (GC) established the [GC Cloud Guardrails](https://github.com/canada-ca/cloud-guardrails). The [GC Cloud Guardrails](https://github.com/canada-ca/cloud-guardrails) are mandated under the [Directive on Service and Digital](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32601) [Appendix G: Standard on Enterprise Information Technology Service Common Configurations](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32713). The [GC Cloud Guardrails](https://github.com/canada-ca/cloud-guardrails) are a preliminary set of baseline security controls to ensure that the cloud service environment has a minimum set of configurations for the cloud environment.
+En août 2019, le gouvernement du Canada (GC) a mis en place les Mesures de protection du nuage du GC. Les Mesures de protection du nuage du GC sont mandatées en vertu de la Directive sur les services et le numérique – canada.ca – annexe G : Norme sur les configurations courantes des services de la TI intégrée – canada.ca. Les Mesures de protection du nuage du GC sont un ensemble préliminaire de mesures de sécurité de base visant à garantir que l’environnement des services en nuage dispose d’un ensemble minimal de configurations pour l’environnement d’informatique en nuage. Les ministères sont responsables de la mise en œuvre des configurations minimales indiquées dans le tableau ci-dessous. La Direction des services d’informatique en nuage de SPC sera chargée de valider les mesures de protection.
 
-Currently, the guardrails are going through an update cycle. The updated version is presented as GC Cloud Guardrails – BETA in this repo.
+Les Mesures de protection du nuage du GC font actuellement l’objet d’un cycle de mise à jour. Dans le cadre du présent répertoire, la version à jour est présentée sous le titre de Mesures de protection du nuage du GC – BETA.
 
-## Purpose
+## Objet
 
-To seek industry feedback on GC Cloud Guardrails – BETA.
+D’obtenir la rétroaction de l’industrie sur les Mesures de protection du nuage du GC – Version bêta.
 
 ## Questions
 
-The following are questions for industry:
+Les questions suivantes s’adressent à l’industrie :
 
-1. Do you have any comments on the proposed update to the cloud guardrails?
-2. Do you anticipate any challenges for customers in implementing, validating, and reporting on compliance for the proposed guardrails?
-3. For SaaS, what is the recommended approach for validating the guardrails either manually, or ideally in an automated manner?
+1. Avez-vous des commentaires sur la proposition de mise à jour des mesures de protection du nuage?
+2. Prévoyez-vous des difficultés pour les clients dans la mise en œuvre, la validation et le rapport de conformité des mesures de protection proposées?
+3. Pour le SaaS, quelle est l’approche recommandée pour valider les mesures de protection, soit manuellement, soit, idéalement, de manière automatisée?
 
-## Definitions
+## Définitions
 
-Les définitions suivantes sont utilisées pour ce document :
+Les définitions suivantes seront utilisées dans le cadre du présent document :
 
 - Exigences obligatoires : Un ensemble de mesures de sécurité de base que les ministères doivent mettre en œuvre, valider et faire rapport dans les 30 premiers jours ouvrables.
-- Autres considérations : Autres mesures de sécurité qui sont fortement recommandées et doivent être prises en considération. Bien que l’on ne s’attende pas à ce qu’elles soient mises en œuvre dans les 30 jours ouvrables, elles comprennent les pratiques exemplaires qui devraient être prises en compte à mesure que les ministères progressent dans la mise en place de leur environnement en nuage. -->
+- Autres considérations : Autres mesures de sécurité qui sont fortement recommandées et doivent être prises en considération. Bien que l’on ne s’attende pas à ce qu’elles soient mises en œuvre dans les 30 jours ouvrables, elles comprennent les pratiques exemplaires qui devraient être prises en compte à mesure que les ministères progressent dans la mise en place de leur environnement en nuage.
 
 ## Mesures de protection du nuage
 
